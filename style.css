@@ -24,3 +24,42 @@ button {
   padding: 14px 24px;
   font-size: 16px;
 }
+
+
+.schedule-card {
+  background-color: white;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 400px;
+  text-align: left;
+}
+
+.schedule-info h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.schedule-info p {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.countdown {
+  text-align: right;
+}
+
+.countdown span {
+  display: block;
+  font-size: 13px;
+  color: #607d8b;
+}
+
+.countdown strong {
+  display: block;
+  font-size: 24px;
+  color: #4caf50;
+}
